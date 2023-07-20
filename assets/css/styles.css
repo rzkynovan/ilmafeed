@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 639px) {
+  nav ul li {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
