@@ -16,10 +16,10 @@
     <header id="header" class="sticky bg-green-900 top-0 w-full z-50 bg-opacity-50" x-data="{ navOpen : false }">
         <div x-show="navOpen" x-transition.duration.1000 class="absolute z-40 w-full h-screen bg-black text-white flex justify-center items-center">
             <ul class="text-white flex flex-col items-center gap-12">
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#portfolio">Portofolio</a></li>
-                <li class="nav-item"><a href="#exploration">Exploration</a></li>
-                <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                <li class="nav-item"><a href="index.html">Produk</a></li>
+                <li class="nav-item"><a href="mitra.html">Bahan</a></li>
+                <li class="nav-item"><a href="mitra.html">Mitra</a></li>
+                <li class="nav-item"><a href="index.html#footer">Kontak</a></li>
                 <button @click="navOpen = ! navOpen"><i class="ri-close-line text-2xl"></i></button>
             </ul>
         </div>
@@ -31,7 +31,7 @@
                     <li class="nav-item hover:text-zinc-400 transition-colors"><a href="#portfolio">Bahan</a></li>
                     <a href=""><h1 class="font-bold">ILMAFEED</h1></a>
                     <li class="nav-item hover:text-zinc-400 transition-colors"><a href="#exploration">Mitra</a></li>
-                    <li class="nav-item hover:text-zinc-400 transition-colors"><a href="#contacts">Kontak</a></li>
+                    <li class="nav-item hover:text-zinc-400 transition-colors"><a href="index.html#kontak">Kontak</a></li>
                 </ul>
                 <button @click="navOpen = true" class="md:hidden z-50 flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

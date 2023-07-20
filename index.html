@@ -16,10 +16,10 @@
     <header id="header" class="sticky bg-green-900 top-0 w-full z-50 bg-opacity-50" x-data="{ navOpen : false }">
         <div x-show="navOpen" x-transition.duration.1000 class="absolute z-40 w-full h-screen bg-black text-white flex justify-center items-center">
             <ul class="text-white flex flex-col items-center gap-12">
-                <li class="nav-item"><a href="#about">About</a></li>
-                <li class="nav-item"><a href="#portfolio">Portofolio</a></li>
-                <li class="nav-item"><a href="#exploration">Exploration</a></li>
-                <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                <li class="nav-item"><a href="#produk">Produk</a></li>
+                <li class="nav-item"><a href="mitra.html">Bahan</a></li>
+                <li class="nav-item"><a href="mitra.html">Mitra</a></li>
+                <li class="nav-item"><a href="#footer">Kontak</a></li>
                 <button @click="navOpen = ! navOpen"><i class="ri-close-line text-2xl"></i></button>
             </ul>
         </div>
@@ -102,7 +102,7 @@
          </section>
     </main>
 
-    <footer class="bg-black text-white lg:px-16 lg:py-24 hidden md:block">
+    <footer class="bg-black text-white lg:px-16 lg:py-24 hidden md:block" id="footer">
         <div class="grid grid-cols-12">
             <div class="col-span-6">
                 <h1 class="text-xl tracking-widest uppercase">Ilmafeed Corp</h1>
